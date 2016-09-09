@@ -33,6 +33,7 @@ public class AutoSuggestBusinessImpl implements AutoSuggestBusiness {
 		String filterCategory = searchRequest.getCurrentSearchCriteria().getFilterCategory();
 
 		//TODO I think  It will be your  PBACK Permission.
+		
 		String flQuery = Constants.EMPTY_STRING;
 
 		Set<SearchSuggestionResponse> searchSuggestionResponse;
